@@ -13,6 +13,10 @@ public class MatrixV0<T> implements Matrix<T> {
   // +--------+------------------------------------------------------
   // | Fields |
   // +--------+
+        T[][] stuff;
+        int width;
+        int height;
+        T defaultVal;
 
   // +--------------+------------------------------------------------
   // | Constructors |
@@ -33,7 +37,10 @@ public class MatrixV0<T> implements Matrix<T> {
    *   If either the width or height are negative.
    */
   public MatrixV0(int width, int height, T def) {
-    // STUB
+    this.width = width;
+    this.height = height;
+    this.defaultVal = defaultVal;
+    this.stuff = (T[][]) new Object[height][width];
   } // MatrixV0(int, int, T)
 
   /**
@@ -70,7 +77,14 @@ public class MatrixV0<T> implements Matrix<T> {
    *   If either the row or column is out of reasonable bounds.
    */
   public T get(int row, int col) {
-    return null;        // STUB
+    if ((row < 0 || row >= height) || (col >= width || col < 0)) {
+      throw new IndexOutOfBoundsException();
+    }
+    if (stuff[row][col] == null) {
+      return defaultVal;
+    }
+
+    return stuff[row][col];
   } // get(int, int)
 
   /**
