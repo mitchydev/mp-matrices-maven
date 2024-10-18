@@ -1,25 +1,26 @@
-# Matrices (two-dimensional arrays)
+Mini Project 6
+==================
 
-A project for CSC-207.
+Mini-Project 6: Matrices by Mitch Paiva
 
-Authors:
+October 18th, 2024
 
-* Your Name Here
-* Samuel A. Rebelsky (starter code)
+CSC-207 Fall2024 Section 1.
+Professor Samuel Rebelsky
 
----
+**Resources Used**
 
-Overview:
 
-PLEASE PROVIDE AN OVERVIEW OF THE PROJECT FOR THOSE WHO MIGHT NOT
-OTHERWISE UNDERSTAND IT.
+-Mentors: I recieved help from the Grinnell 2024 Fall Computer Science tutors and some help from the class Mentor: Maria Rodriguez
 
----
 
-Citations:
+-Course Material: I used the course instructions by Samuel Rebelsky and Catie Baker to create this project.
 
----
 
-This code may be found at <https://github.com/USERID/mp-matrices-maven>. 
+-VScode: To edit and organize project files.
 
-The original code may be found at <https://github.com/Grinnell-CSC207/mp-matrices-maven>.
+
+GitHub Repository: https://github.com/mitchydev/mp-matrices-maven
+
+
+Forked from Original Repository: [https://github.com/catiembaker/AACNestedHW](https://github.com/Grinnell-CSC207/mp-matrices-maven)
