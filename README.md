@@ -23,4 +23,4 @@ Professor Samuel Rebelsky
 GitHub Repository: https://github.com/mitchydev/mp-matrices-maven
 
 
-Forked from Original Repository: (https://github.com/Grinnell-CSC207/mp-matrices-maven)](https://github.com/Grinnell-CSC207/mp-matrices-maven)
+Forked from Original Repository: https://github.com/Grinnell-CSC207/mp-matrices-maven
